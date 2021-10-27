@@ -48,7 +48,7 @@ function App() {
     <Grid container className={classes.container}>
       <Grid item className={classes.imageContainer}>
       <img src="https://source.unsplash.com/1600x900/?nature,water" alt="" className={classes.image}  />
-      <div className={classes.overlay} style={{ background: `linear-gradient(271deg, rgba(230, 231, 226, 0.792) ${change}%, rgb(0 0 0 / 72%) 77%)`}}></div>
+      <div className={classes.overlay} style={{ background: `linear-gradient(271deg,  rgb(230 231 226 / 0%) ${change}%, rgb(0 0 0 / 72%) 77%)`}}></div>
       </Grid>
       <Grid item className={classes.controller}>
         <Typography variant="h6" color="initial">Assigment DailyCutting</Typography>
